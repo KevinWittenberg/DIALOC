@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transcript-lok"
+version = "0.1.0"
+description = "Local Dutch and English transcription pipeline with diarization, corrections, and summaries."
+requires-python = ">=3.10,<3.13"
+readme = "README.md"
+authors = [{ name = "Transcript LOK" }]
+dependencies = [
+  "faster-whisper>=1.1.1",
+  "gradio>=5.0,<7.0",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "pyannote.audio>=3.3",
+  "requests>=2.32",
+  "scipy>=1.11",
+  "soundfile>=0.12",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+transcript-lok = "transcript_lok.ui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

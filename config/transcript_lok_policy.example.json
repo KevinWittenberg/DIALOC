@@ -1,0 +1,27 @@
+{
+  "automatic_correction_local_only": true,
+  "features": {
+    "file_transcription": true,
+    "live_transcription": false,
+    "diarization": false,
+    "correction": true,
+    "meeting_summary": true,
+    "action_points": true,
+    "decision_summaries": false,
+    "follow_up_email": false,
+    "cloud_providers": false
+  },
+  "runtime": {
+    "production_cpu": true,
+    "default_model": "base",
+    "default_device": "cpu",
+    "default_compute_type": "int8",
+    "cpu_threads": 2,
+    "num_workers": 1,
+    "beam_size": 1,
+    "chunk_long_files": true,
+    "chunk_seconds": 600,
+    "overlap_seconds": 5,
+    "queue_max_threads": 2
+  }
+}

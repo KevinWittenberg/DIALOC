@@ -1,0 +1,19 @@
+{
+  "glossary": "ACME Project\nTranscript LOK\nGemma",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "speaker": "SPEAKER_00",
+      "text": "Akme projekt needs the jemma summary pass.",
+      "confidence": 0.71
+    },
+    {
+      "start": 2.0,
+      "end": 4.5,
+      "speaker": "SPEAKER_01",
+      "text": "Kevin will send the action list friday.",
+      "confidence": 0.82
+    }
+  ]
+}
