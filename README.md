@@ -192,6 +192,6 @@ Put names, domain terms, product names, and acronyms in the glossary box. Use on
 After diarization, replace labels with names in the corrections tab:
 
 ```text
-SPEAKER_00 = Kevin
-SPEAKER_01 = Anna
+SPEAKER_00 = Mark
+SPEAKER_01 = Paulette
 ```
